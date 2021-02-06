@@ -1,0 +1,116 @@
+@font-face {
+	src: url('fonts/Helvetica CE Regular.ttf');
+	font-family: 'HelveticaCE';
+}
+@font-face {
+	src: url('fonts/Helvetica Neue.ttf');
+	font-family: 'Helvetica Neue';
+}
+@font-face {
+	src: url('fonts/perpetua.ttf');
+	font-family: 'PerpetuaTitlingMT';
+}
+.nav-link {
+	font-size: 19px;
+	font-family: "Helvetica Neue";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.158;
+	text-align: left;
+	z-index: 38;
+}
+.navbar-collapse {
+	margin-left:5%;
+}
+.logo {
+	position:relative;
+	top:50px;
+	left:85px;
+}
+.social-media {
+	position: relative;
+	top: -10px;
+	margin-right:5%;
+}
+.container-fluid {
+	padding: 0 !important;
+}
+.headline {
+  font-size: 23px;
+  font-family: "PerpetuaTitlingMT";
+  color: rgb(0, 0, 0);
+  line-height: 0.957;
+  text-align: left;
+  text-transform: uppercase;
+	padding-top: 50px;
+	padding-bottom: 30px;
+  z-index: 35;
+}
+.over {
+	background: url('img/after-headline-bg.png');
+}
+.name {
+  font-size: 25px;
+  font-family: "HelveticaCE Regular";
+	font-weight: bolder;
+  color: rgb(0, 0, 0);
+  line-height: 0.88;
+  text-align: left;
+	padding-top:15px;
+	padding-left: 15px;
+  z-index: 17;
+}
+.prof {
+  font-size: 20px;
+  font-family: "Helvetica Neue";
+  color: rgb(0, 0, 0);
+  line-height: 0.88;
+  text-align: left;
+	padding-top: 15px;
+	padding-left: 15px;
+	margin-bottom:15px;
+  z-index: 17;
+}
+.w-border {
+	position: relative;
+	border-bottom: 1px solid #cccccc;
+}
+.avatar img{
+	position:relative;
+	top:-70px;
+	border: 4px solid white;
+	box-shadow: 5px 5px 10px 2px grey;
+}
+.avatar {
+	top: 50px; z-index: 5;
+}
+
+.about {
+  font-size: 13px;
+  font-family: "HelveticaCE";
+  color: rgb(88, 85, 85);
+  line-height: 1.692;
+  text-align: justify;
+  z-index: 28;
+}
+.text {
+	margin-top: 50px;
+}
+h6 {
+  font-size: 23px;
+  font-family: "HelveticaCE";
+  color: rgb(0, 0, 0);
+  line-height: 0.957;
+  text-align: left;
+  z-index: 29;
+}
+.footer {
+  font-size: 13px;
+  font-family: "HelveticaCE";
+  color: rgb(88, 85, 85);
+  line-height: 1.692;
+  text-align: justify;
+	margin:35px;
+  z-index: 8;
+
+}
