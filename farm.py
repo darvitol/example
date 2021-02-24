@@ -27,8 +27,6 @@ class Animal(object):
         self.animal_id = animal_id
         self.products = products
 
-    def printAll(self):
-        print(self.sort)
 
 
 def read_sorts():
